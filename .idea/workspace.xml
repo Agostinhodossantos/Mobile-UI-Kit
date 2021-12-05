@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18b82eac-1999-43a0-bcb3-4d32db46330f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Mobile-UI-Kit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginUI/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginUI/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginUI/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginUI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoginUI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginUI/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/LoginUI/app/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21apb7uer51qV9qjmSeVhhZ88TE" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LoginUI" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18b82eac-1999-43a0-bcb3-4d32db46330f" name="Default Changelist" comment="" />
+      <created>1638189122079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638189122079</updated>
+    </task>
+    <servers />
+  </component>
+</project>
