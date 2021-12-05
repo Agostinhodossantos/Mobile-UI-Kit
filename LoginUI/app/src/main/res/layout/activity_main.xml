@@ -7,30 +7,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toTopOf="@id/ll_bottom"
-        >
-
-    </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ll_bottom"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_outline"
-            android:text="@string/with_email"/>
+            android:layout_height="55dp"
+            android:text="Login with google"
+            android:drawableStart="@drawable/google"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="20dp"
+            android:gravity="start|"
+
+            android:background="@drawable/bg_outline"/>
+
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
+            android:textColor="@color/white"
+            android:text="Login with facebook"
+            android:drawableStart="@drawable/facebook"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="20dp"
             android:background="@drawable/bg_filled"/>
+
 
     </LinearLayout>
 
