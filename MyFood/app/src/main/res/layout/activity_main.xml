@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:textSize="13sp"
+            style="@style/MyFoodButtonStyle"
             android:text="Rua ABC"/>
 
         <ImageView

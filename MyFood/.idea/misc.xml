@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/font/sulsans.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14010416666666667" />
       </map>
     </option>
