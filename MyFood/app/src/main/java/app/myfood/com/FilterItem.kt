@@ -1,4 +1,5 @@
 package app.myfood.com
 
-class FilterItem {
-}
+data class FilterItem(
+    val text: String
+)
