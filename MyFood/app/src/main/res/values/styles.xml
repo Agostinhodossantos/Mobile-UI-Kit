@@ -5,4 +5,13 @@
         <item name="fontFamily">@font/sulsans</item>
     </style>
 
+    <style name="MyFoodTextViewStyle" parent="android:Widget.TextView">
+        <item name="fontFamily">@font/sulsans</item>
+    </style>
+
+    <style name="MyFoodTabLayoutTextApperence" parent="Widget.Design.TabLayout">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

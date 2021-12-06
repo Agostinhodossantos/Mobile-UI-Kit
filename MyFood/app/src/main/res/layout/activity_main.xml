@@ -33,6 +33,11 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/add_tab"
         app:tabMode="auto"
+        app:tabIndicator="@color/red"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="1dp"
+        app:tabSelectedTextColor="@color/red"
+        app:tabTextAppearance="@style/MyFoodTabLayoutTextApperence"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

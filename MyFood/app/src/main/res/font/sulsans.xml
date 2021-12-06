@@ -8,5 +8,5 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="700"
-        android:font="@font/AverageSansRegular"/>
+        android:font="@font/sans_regular"/>
 </font-family>
