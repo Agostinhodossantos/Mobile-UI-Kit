@@ -2,6 +2,7 @@ package app.myfood.com
 
 import android.content.Context
 import android.view.ContextThemeWrapper
+import android.view.LayoutInflater
 import androidx.annotation.DrawableRes
 import com.google.android.material.chip.Chip
 
@@ -14,10 +15,13 @@ data class FilterItem(
 )
 
 fun FilterItem.toChip(context: Context) : Chip{
-    val chip = Chip(ContextThemeWrapper(context, R.style.Widget_MaterialComponents_Chip_Choice))
+    val chip = if (closeIcon == null) {
+        LayoutInflater.from(context).inflate(R.layout.chip_choice, null, false) as Chip
+    } else {
+        Chip(ContextThemeWrapper(context, R.style.Widget_MaterialComponents_Chip_Choice))
+    }
 
     chip.text = text
-    chip
 
     return chip
 }
