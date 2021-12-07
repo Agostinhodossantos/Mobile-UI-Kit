@@ -21,6 +21,25 @@ fun FilterItem.toChip(context: Context) : Chip{
         Chip(ContextThemeWrapper(context, R.style.Widget_MaterialComponents_Chip_Choice))
     }
 
+    if (closeIcon != null)
+        chip.setChipBackgroundColorResource(R.color.white)
+    chip.setChipStrokeColorResource(R.color.lt_gray)
+
+    chip.chipStrokeWidth = 2f
+
+    if (icon != null) {
+        chip.chipIconSize = iconSize
+        chip.setChipIconResource(icon)
+        chip.chipStartPadding = 20f
+    } else {
+        chip.chipIcon = null
+    }
+
+    closeIcon?.let {
+        chip.setCloseIconResource(it)
+        chip.isCloseIconVisible = true
+    }
+
     chip.text = text
 
     return chip
