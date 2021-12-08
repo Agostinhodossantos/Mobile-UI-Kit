@@ -39,12 +39,10 @@ class RetaurantFragment: Fragment(R.layout.fragment_restaurant) {
             )
 
         bannerAdapter.items = arrayListOf(
-            Banner(1, "https://static-images.ifood.com.br/image/upload/t_high/discoveries/itensBasicosNOV21Principal_zE1X.png"),
-            Banner(2, "https://static-images.ifood.com.br/image/upload/t_high/discoveries/Bebidas40offPrincipal_cljA.png"),
+            Banner(1, "https://image.freepik.com/free-vector/beef-hamburger-background_1284-12693.jpg"),
+            Banner(2, "https://image.freepik.com/free-psd/delicious-burger-food-menu-social-media-banner-template_106176-354.jpg"),
             Banner(3, "https://static-images.ifood.com.br/image/upload/t_high/discoveries/MerceariaeMatinaisPrincipal_mfDO.png"),
         )
-
-
 
         binding = FragmentRestaurantBinding.bind(view)
 
@@ -53,6 +51,10 @@ class RetaurantFragment: Fragment(R.layout.fragment_restaurant) {
 
             it.rvCategory.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
             it.rvCategory.adapter = categoryAdapter
+
+            it.rvBanner.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+            it.rvBanner.adapter = bannerAdapter
+
 
             filtes.forEach { filter ->
                 it.chipGroupFilter.addView(
