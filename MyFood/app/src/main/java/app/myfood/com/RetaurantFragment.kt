@@ -18,7 +18,7 @@ class RetaurantFragment: Fragment(R.layout.fragment_restaurant) {
 
     private var categoryAdapter = ATAdapter({ CategoryView(it) })
     private var bannerAdapter = ATAdapter({ BannerView(it) })
-
+    private var shopAdapter = ATAdapter({ ShopView(it) })
     private var filtes = arrayOf(
         FilterItem(1,"Order", closeIcon = R.drawable.ic_baseline_keyboard_arrow_down_24),
         FilterItem(2,"Para retirar", icon = R.drawable.ic_baseline_directions_walk_24),
@@ -48,6 +48,18 @@ class RetaurantFragment: Fragment(R.layout.fragment_restaurant) {
             Banner(3, "https://static-images.ifood.com.br/image/upload/t_high/discoveries/MerceariaeMatinaisPrincipal_mfDO.png"),
         )
 
+
+        shopAdapter.items = arrayListOf(
+            Shop(1, "https://testskitchen.com/wp-content/uploads/2021/04/Fast-Food.jpg", "Pizza Crek"),
+            Shop(2, "https://image.freepik.com/free-vector/beef-hamburger-background_1284-12693.jpg", "Fábrica de Esfiha"),
+            Shop(3, "https://testskitchen.com/wp-content/uploads/2021/04/Fast-Food.jpg", "Pecorino"),
+            Shop(4, "https://testskitchen.com/wp-content/uploads/2021/04/Fast-Food.jpg", "Barbacoa Grill"),
+            Shop(5, "https://testskitchen.com/wp-content/uploads/2021/04/Fast-Food.jpg", "Bolo de Madre"),
+            Shop(6, "https://testskitchen.com/wp-content/uploads/2021/04/Fast-Food.jpg", "Uau Esfiha"),
+            Shop(7, "https://testskitchen.com/wp-content/uploads/2021/04/Fast-Food.jpg", "Bar do Juarez"),
+        )
+
+
         binding = FragmentRestaurantBinding.bind(view)
 
 
@@ -58,6 +70,10 @@ class RetaurantFragment: Fragment(R.layout.fragment_restaurant) {
 
             it.rvBanner.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
             it.rvBanner.adapter = bannerAdapter
+
+            it.rvShops.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+            it.rvShops.adapter = shopAdapter
+
             it.rvBanner.addOnScrollListener( object : RecyclerView.OnScrollListener() {
                 override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
                    if (newState == RecyclerView.SCROLL_STATE_IDLE) {
