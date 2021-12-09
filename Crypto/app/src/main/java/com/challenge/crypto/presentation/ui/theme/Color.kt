@@ -1,4 +1,4 @@
-package com.challenge.crypto.ui.theme
+package com.challenge.crypto.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
