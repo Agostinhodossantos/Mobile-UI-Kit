@@ -3,6 +3,7 @@ package com.challenge.crypto.domain.use_case.get_coins
 import com.challenge.crypto.common.Resource
 import com.challenge.crypto.data.remote.dto.toCoin
 import com.challenge.crypto.data.repository.CoinRepository
+import com.challenge.crypto.data.repository.CoinRepositoryImpl
 import com.challenge.crypto.domain.model.Coin
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
