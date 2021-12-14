@@ -17,5 +17,5 @@ Food order app <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree
 <div align="start">
   <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree/main/MyFood">
   <img height="400em" src="https://firebasestorage.googleapis.com/v0/b/apptraining-4e270.appspot.com/o/github%2Ffood_app.jpg?alt=media&token=08ae17fc-fc59-4038-9523-47adc672acd0"/>
-  <img height="400em" src="https://firebasestorage.googleapis.com/v0/b/apptraining-4e270.appspot.com/o/github%2Ffood_app.jpg?alt=media&token=08ae17fc-fc59-4038-9523-47adc672acd0"/>
+
 </div>
