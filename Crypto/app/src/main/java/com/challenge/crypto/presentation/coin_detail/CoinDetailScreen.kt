@@ -24,7 +24,6 @@ import com.challenge.crypto.presentation.coin_detail.components.TeamListItem
 import com.challenge.crypto.presentation.coin_list.components.CoinListItem
 import com.google.accompanist.flowlayout.FlowRow
 
-@Preview
 @Composable
 fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
