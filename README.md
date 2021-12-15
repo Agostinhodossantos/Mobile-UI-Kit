@@ -22,7 +22,7 @@ Food order app <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree
  
  
 # Cryptocurrency App
- Cryptocurrency App <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree/main/MyFood"> source code here</a>
+ Cryptocurrency App <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree/main/Crypto"> source code here</a>
 
 <div align="start">
   <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree/main/Crypto">
