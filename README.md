@@ -27,8 +27,6 @@ Food order app <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree
 
 <div align="start">
   <a href="https://github.com/Agostinhodossantos/Mobile-UI-Kit/tree/main/Crypto">
-  <img height="400em" src="https://firebasestorage.googleapis.com/v0/b/fb-api-2fc74.appspot.com/o/github%2FScreenshot_20211214-162601_CryptocurrencyAppYT.jpg?alt=media&token=6e0fc756-26fb-4c69-9424-bcfc63dba3f5"/>
-   
-  <img height="400em" src="https://firebasestorage.googleapis.com/v0/b/fb-api-2fc74.appspot.com/o/github%2FScreenshot_20211214-162543_CryptocurrencyAppYT.jpg?alt=media&token=07b823b9-a9a3-4f3e-a4d4-7c1d06ebf621"/>
+  <img height="400em" src="https://firebasestorage.googleapis.com/v0/b/fb-api-2fc74.appspot.com/o/github%2Fcrpto.png?alt=media&token=38c71f08-d61c-4e5d-9a86-f055965448af"/>
 </div>
 
