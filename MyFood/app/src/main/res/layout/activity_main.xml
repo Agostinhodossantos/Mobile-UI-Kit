@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:textSize="13sp"
+            style="@style/MyFoodButtonStyle"
             android:text="Rua ABC"/>
 
         <ImageView
@@ -32,11 +33,19 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/add_tab"
         app:tabMode="auto"
+<<<<<<< HEAD
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorHeight="1dp"
         app:tabIndicator="@color/red"
         app:tabSelectedTextColor="@color/red"
         app:tabTextColor="@color/gray"
+=======
+        app:tabIndicator="@color/red"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="1dp"
+        app:tabSelectedTextColor="@color/red"
+        app:tabTextAppearance="@style/MyFoodTabLayoutTextApperence"
+>>>>>>> 9327ad43a28897bee04c8d131fbd21abb4e53c57
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

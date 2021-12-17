@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         val viewPager = binding.addViewpager
         val adapter = TabViewPagerAdapter(this)
         viewPager.adapter = adapter
-
+        viewPager.isUserInputEnabled = false
 
         TabLayoutMediator(tabLayout, viewPager) {tab, position ->
             tab.text = getString(adapter.tabs[position])
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
  class TabViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
 
      val tabs = arrayOf(R.string.retaurants, R.string.marketplace, R.string.drinks)
-     val fragments = arrayOf(MarketPlaceFragment(), MarketPlaceFragment(), MarketPlaceFragment())
+     val fragments = arrayOf(RetaurantFragment(), MarketPlaceFragment(), MarketPlaceFragment())
 
      override fun getItemCount() = fragments.size
 
