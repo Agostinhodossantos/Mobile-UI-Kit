@@ -1,4 +1,4 @@
-package app.myfood.mylearntest
+package app.myfood.mylearntest.utils
 
 object RegistrationUtil {
 

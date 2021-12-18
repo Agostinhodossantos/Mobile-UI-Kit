@@ -1,5 +1,6 @@
 package app.myfood.mylearntest
 
+import app.myfood.mylearntest.utils.RegistrationUtil
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 
