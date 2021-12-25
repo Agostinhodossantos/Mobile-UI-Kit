@@ -1,4 +1,5 @@
-package app.myfood.mylearntest.data.local
+package app.learn.data.local
+
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

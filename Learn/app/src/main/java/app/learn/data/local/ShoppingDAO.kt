@@ -1,4 +1,4 @@
-package app.myfood.mylearntest.data.local
+package app.learn.data.local
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
