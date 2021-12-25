@@ -1,7 +1,8 @@
-package app.learn
+package app.learn.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import app.learn.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
