@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import app.learn.R
 
-class ShoppingFragment : Fragment(R.layout.fragment_shopping) {
+class ImagePickFragment : Fragment(R.layout.fragment_image_pick) {
 
     lateinit var viewModel: ShoppingViewModel
 
